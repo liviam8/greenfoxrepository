@@ -1,0 +1,38 @@
+Tools
+Snippets › HTML › How to Add an Anchor Link to Jump to a Specific Part of a Page
+How to Add an Anchor Link to Jump to a Specific Part of a Page
+An anchor link is a link, which allows the users to flow through a website page. It helps to scroll and skim-read easily. A named anchor can be used to link to a different part of the same page (like quickly navigating) or to a specific section of another page.
+
+Creating an anchor link¶
+Let’s see how to jump to a marked section of the page by using the <a> tag. It’s quite simple!
+
+Add an id attribute to the anchor element to give a name to the section of the page. The value of the attribute may be a word or a phrase (when using phrases remember not to have spaces, use dashes or underscores instead).
+<a id="anchor-name">The  name where you want to jump</a>
+Alternatively you can also have the following types of anchors:
+
+anchor within a header: <h2 id="anchor-name">Section name</h2>
+anchor within an image: <img id="anchor-name" src="/images/imgname.jpeg"/>
+anchor within a paragraph: <p id="anchor-name">Paragraph name</p>
+
+Remember that each id can appear only once on a page.
+Create a hyperlink by using the id of the link target, preceded by #.
+<a href="#anchor-name">Jump to the part of the page with the “anchor-name” id </a>
+Now, just add the preferred text, and you will be able to fly through the page sections.
+
+Example of creating a jumping anchor link:¶
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the document</title>
+    
+  </head>
+  <body>
+    <h2 id="Lorem_Ipsum">Lorem Ipsum</h2>
+    <p class="main-content">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+    </p>
+    <p>Go to the
+      <a href="#Lorem_Ipsum">top</a>.
+    </p>
+  </body>
+</html>

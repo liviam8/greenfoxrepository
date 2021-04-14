@@ -1,0 +1,60 @@
+$ touch index.html 
+$ touch app.js
+$ git init
+$ git add index.html
+$ git status
+$ git add .
+$ git rm --cached index.html
+$ git add *.html
+$ git commit -m 'changed app.js'
+$ git checkout master
+  Switched to branch 'master'
+$ git config --global user.email "liviamate8@gmail.com"
+ls 
+cd
+pwd Print working directory
+cd . (current directory). This is the directory you are currently in.
+cd .. (parent directory). Takes you to the directory above your current.
+cd ~ (home directory). This directory defaults to your “home directory”. Such as /home/pete.
+cd - (previous directory). This will take you to the previous directory you were just at.
+ls -la (list directory)
+$ touch mysuperduperfile (create
+ file banana.jpg  (To find out what kind of file a file is)
+ 
+$ cat dogfile.txt birdfile.txt (kiirja)
+dog
+bird
+
+ cp -r Pumpkin/ /home/pete/Documents  Másol foldert tartalommal 
+ $ cp *.png /c/Users/212745913/Documents/greenfox/myapp másol minden képet 
+ $ cp -i mycoolfile /home/pete/Pictures szól mielőtt felülírna
+ 
+ You can rename files like this:
+
+$ mv oldfile newfile átnevez
+
+$ mv file2 /home/pete/Documents áthelyezi a fájlt
+
+$ mv file_1 file_2 /somedirectory több fájlt áthelyez 
+
+$ mv directory1 directory2 directory-t is átnevez
+
+$ mv -b directory1 directory2 backupol
+
+$ mkdir books paintings tööbb foldert is létrehoz
+
+$ mkdir -p /c/Users/212745913/Documents/greenfox/myapp paintings
+
+$ cp -r newdir2/ newdir/  foldert másolja
+
+$ cp -r newdir2/* newdir/   a folder tartalmát másolja
+
+
+
+
+
+
+
+
+
+

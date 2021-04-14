@@ -1,0 +1,15 @@
+     1	albino
+     2	hazi 
+     3	hazi 
+     4	hazi 
+     5	hazi 
+     6	
+     7	kobor 
+     8	kopasz
+     9	vad 
+    10	maine coon 
+    11	perzsa
+    12	sziami
+    13	kobor 
+    14	kobor 
+    15	vad 
