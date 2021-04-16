@@ -1,4 +1,6 @@
 $ touch index.html 
+$ touch index.html 
+
 $ touch app.js
 $ git init
 $ git add index.html
